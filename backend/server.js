@@ -54,7 +54,7 @@ const dbPassword = process.env.DB_PASS;
 const mongoURI = `mongodb+srv://${dbUser}:${dbPassword}@clusterapi.28dvo.mongodb.net/?retryWrites=true&w=majority&appName=ClusterAPI`;
 
 // Porta que roda o servidor
-const port = 3000;
+const port = 3001;
 
 mongoose
   .connect(mongoURI) // Conecta ao banco de dados com o Link gerado
